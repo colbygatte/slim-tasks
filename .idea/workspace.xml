@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de5d14ad-9ddf-4f5b-967a-ecd6c6e68890" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/middleware.php" afterPath="$PROJECT_DIR$/src/middleware.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/settings.php" afterPath="$PROJECT_DIR$/src/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Functional/HomepageTest.php" afterPath="$PROJECT_DIR$/tests/Functional/HomepageTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/settings.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="327">
+              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+              <folding>
+                <element signature="e#7#29#0#PHP" expanded="true" />
+                <element signature="e#520#543#0#PHP" expanded="true" />
+                <element signature="e#900#930#0#PHP" expanded="true" />
+                <element signature="e#1859#1887#0#PHP" expanded="true" />
+                <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+                <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+                <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+                <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
+                <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
+                <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,11 +49,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/middleware.php" />
         <option value="$PROJECT_DIR$/src/dependencies.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/src/settings.php" />
+        <option value="$PROJECT_DIR$/src/middleware.php" />
+        <option value="$PROJECT_DIR$/tests/Functional/HomepageTest.php" />
+        <option value="$PROJECT_DIR$/src/routes.php" />
       </list>
     </option>
   </component>
@@ -91,18 +103,49 @@
             </path>
             <path>
               <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Functional" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="PDO" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Slim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -144,12 +187,12 @@
       <updated>1506629215720</updated>
       <workItem from="1506629217536" duration="3203000" />
       <workItem from="1506635137746" duration="119000" />
-      <workItem from="1506964052102" duration="2982000" />
+      <workItem from="1506964052102" duration="5182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6304000" />
+    <option name="totallyTimeSpent" value="8504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -199,28 +242,17 @@
         <state relative-caret-position="360">
           <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
-            <marker date="1506967598000" expanded="true" signature="11:53" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="65:975" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="144:974" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="358:647" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="396:428" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="396:443" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="675:814" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="865:971" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="866:970" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="989:1421" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1074:1420" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1108:1142" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="1251:1319" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1327:1418" ph="..." />
+            <element signature="e#7#29#0#PHP" expanded="true" />
+            <element signature="e#520#543#0#PHP" expanded="true" />
+            <element signature="e#900#930#0#PHP" expanded="true" />
+            <element signature="e#1859#1887#0#PHP" expanded="true" />
+            <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+            <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+            <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+            <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
+            <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
+            <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Functional/BaseTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -318,34 +350,6 @@
             <marker date="1489946120000" expanded="true" signature="13553:13705" ph="..." />
             <marker date="1489946120000" expanded="true" signature="13801:13904" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dependencies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <marker date="1506635129000" expanded="true" signature="121:238" ph="..." />
-            <marker date="1506635129000" expanded="true" signature="291:578" ph="..." />
-            <marker date="1506635129000" expanded="true" signature="616:905" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,34 +483,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.php">
+    <entry file="file://$PROJECT_DIR$/src/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="450">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
-            <marker date="1506967598000" expanded="true" signature="11:53" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="65:975" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="144:974" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="358:647" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="396:428" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="396:443" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="675:814" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="865:971" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="866:970" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="989:1421" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1074:1420" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1108:1142" ph="SELECT * FRO... tasks" />
-            <marker date="1506967598000" expanded="true" signature="1251:1319" ph="..." />
-            <marker date="1506967598000" expanded="true" signature="1327:1418" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="14:786" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="34:783" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="258:326" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="379:563" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="584:716" ph="..." />
+            <marker date="1506967622000" expanded="true" signature="740:776" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dependencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <marker date="1506635129000" expanded="true" signature="121:238" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="291:578" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="616:905" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <marker date="1506968109000" expanded="true" signature="21:100" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="76:99" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="114:486" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="144:485" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="222:276" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="299:394" ph="..." />
+            <marker date="1506968109000" expanded="true" signature="417:482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Functional/BaseTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <marker date="1506635129000" expanded="false" signature="40:123" ph="..." />
+            <marker date="1506635129000" expanded="false" signature="128:386" ph=" This is an example class that shows how you could set up a method that ..." />
+            <marker date="1506635129000" expanded="true" signature="443:2191" ph="{...}" />
+            <marker date="1506635129000" expanded="false" signature="453:531" ph=" Use middleware when running application? ..." />
+            <marker date="1506635129000" expanded="false" signature="580:879" ph=" Process the application given a request method and URI ..." />
+            <marker date="1506635129000" expanded="true" signature="958:2189" ph="{...}" />
+            <marker date="1506635129000" expanded="true" signature="1060:1194" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="1074:1184" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="1400:1472" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="1885:1953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
+          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <marker date="1489946120000" expanded="false" signature="9:238" ph=" Slim Framework (https://slimframework.com) ..." />
+            <marker date="1489946120000" expanded="false" signature="267:369" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="374:750" ph=" Abstract message (base class for Request and Response) ..." />
+            <marker date="1489946120000" expanded="true" signature="803:9635" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="813:869" ph=" Protocol version ..." />
+            <marker date="1489946120000" expanded="false" signature="920:991" ph=" A map of valid protocol versions ..." />
+            <marker date="1489946120000" expanded="true" signature="1041:1115" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="1126:1205" ph=" Headers ..." />
+            <marker date="1489946120000" expanded="false" signature="1240:1318" ph=" Body object ..." />
+            <marker date="1489946120000" expanded="false" signature="1351:1408" ph=" Disable magic setter to ensure immutability ..." />
+            <marker date="1489946120000" expanded="true" signature="1451:1485" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="1494:1670" ph=" Protocol ..." />
+            <marker date="1489946120000" expanded="false" signature="1681:1884" ph=" Retrieves the HTTP protocol version as a string. ..." />
+            <marker date="1489946120000" expanded="true" signature="1927:1978" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="1987:2510" ph=" Return an instance with the specified HTTP protocol version. ..." />
+            <marker date="1489946120000" expanded="true" signature="2562:2938" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="2630:2833" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="2947:3122" ph=" Headers ..." />
+            <marker date="1489946120000" expanded="false" signature="3133:4135" ph=" Retrieves all message header values. ..." />
+            <marker date="1489946120000" expanded="true" signature="4170:4220" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4229:4587" ph=" Checks if a header exists by the given case-insensitive name. ..." />
+            <marker date="1489946120000" expanded="true" signature="4626:4681" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4690:5257" ph=" Retrieves a message header value by the given case-insensitive name. ..." />
+            <marker date="1489946120000" expanded="true" signature="5296:5355" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="5364:6215" ph=" Retrieves a comma-separated string of the values for a single header. ..." />
+            <marker date="1489946120000" expanded="true" signature="6258:6331" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="6340:7004" ph=" Return an instance with the provided value replacing the specified header. ..." />
+            <marker date="1489946120000" expanded="true" signature="7052:7163" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="7172:7880" ph=" Return an instance with the specified header appended with the given value. ..." />
+            <marker date="1489946120000" expanded="true" signature="7933:8044" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="8053:8467" ph=" Return an instance without the specified header. ..." />
+            <marker date="1489946120000" expanded="true" signature="8510:8616" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="8625:8797" ph=" Body ..." />
+            <marker date="1489946120000" expanded="false" signature="8808:8919" ph=" Gets the body of the message. ..." />
+            <marker date="1489946120000" expanded="true" signature="8951:8991" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="9000:9443" ph=" Return an instance with the specified message body. ..." />
+            <marker date="1489946120000" expanded="true" signature="9497:9633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Functional/HomepageTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1506969797000" expanded="true" signature="75:438" ph="{...}" />
+            <marker date="1506969797000" expanded="true" signature="135:436" ph="{...}" />
+            <marker date="1506969797000" expanded="true" signature="176:261" ph="..." />
+            <marker date="1506969797000" expanded="true" signature="204:260" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+          <folding>
+            <element signature="e#7#29#0#PHP" expanded="true" />
+            <element signature="e#520#543#0#PHP" expanded="true" />
+            <element signature="e#900#930#0#PHP" expanded="true" />
+            <element signature="e#1859#1887#0#PHP" expanded="true" />
+            <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+            <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+            <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+            <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
+            <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
+            <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
+          </folding>
         </state>
       </provider>
     </entry>
