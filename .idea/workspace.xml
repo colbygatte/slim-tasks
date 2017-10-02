@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de5d14ad-9ddf-4f5b-967a-ecd6c6e68890" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,19 +16,21 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+            <state relative-caret-position="394">
+              <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
               <folding>
                 <element signature="e#7#29#0#PHP" expanded="true" />
                 <element signature="e#520#543#0#PHP" expanded="true" />
-                <element signature="e#900#930#0#PHP" expanded="true" />
-                <element signature="e#1859#1887#0#PHP" expanded="true" />
-                <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
-                <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
-                <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
-                <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
-                <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
-                <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
+                <element signature="e#900#924#0#PHP" expanded="true" />
+                <element signature="e#1276#1306#0#PHP" expanded="true" />
+                <element signature="e#2235#2263#0#PHP" expanded="true" />
+                <marker date="1506970883000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+                <marker date="1506970883000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+                <marker date="1506970883000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+                <marker date="1506970883000" expanded="true" signature="1052:1084" ph="DELETE FROM " />
+                <marker date="1506970883000" expanded="true" signature="1651:1683" ph="SELECT * FRO... tasks" />
+                <marker date="1506970883000" expanded="true" signature="1651:1698" ph="SELECT * FRO... tasks" />
+                <marker date="1506970883000" expanded="true" signature="2398:2432" ph="SELECT * FRO... tasks" />
               </folding>
             </state>
           </provider>
@@ -49,9 +51,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/dependencies.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/settings.php" />
         <option value="$PROJECT_DIR$/src/middleware.php" />
         <option value="$PROJECT_DIR$/tests/Functional/HomepageTest.php" />
+        <option value="$PROJECT_DIR$/src/settings.php" />
+        <option value="$PROJECT_DIR$/tests/Functional/BaseTestCase.php" />
         <option value="$PROJECT_DIR$/src/routes.php" />
       </list>
     </option>
@@ -185,15 +188,16 @@
       <updated>1506629215720</updated>
       <workItem from="1506629217536" duration="3203000" />
       <workItem from="1506635137746" duration="119000" />
-      <workItem from="1506964052102" duration="5333000" />
+      <workItem from="1506964052102" duration="5684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8655000" />
+    <option name="totallyTimeSpent" value="9006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -203,7 +207,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -241,14 +245,16 @@
           <folding>
             <element signature="e#7#29#0#PHP" expanded="true" />
             <element signature="e#520#543#0#PHP" expanded="true" />
-            <element signature="e#900#930#0#PHP" expanded="true" />
-            <element signature="e#1859#1887#0#PHP" expanded="true" />
-            <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
-            <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
-            <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
-            <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
-            <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
-            <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
+            <element signature="e#900#924#0#PHP" expanded="true" />
+            <element signature="e#1276#1306#0#PHP" expanded="true" />
+            <element signature="e#2235#2263#0#PHP" expanded="true" />
+            <marker date="1506970883000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+            <marker date="1506970883000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+            <marker date="1506970883000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+            <marker date="1506970883000" expanded="true" signature="1052:1084" ph="DELETE FROM " />
+            <marker date="1506970883000" expanded="true" signature="1651:1683" ph="SELECT * FRO... tasks" />
+            <marker date="1506970883000" expanded="true" signature="1651:1698" ph="SELECT * FRO... tasks" />
+            <marker date="1506970883000" expanded="true" signature="2398:2432" ph="SELECT * FRO... tasks" />
           </folding>
         </state>
       </provider>
@@ -480,21 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <marker date="1506967622000" expanded="true" signature="14:786" ph="..." />
-            <marker date="1506967622000" expanded="true" signature="34:783" ph="..." />
-            <marker date="1506967622000" expanded="true" signature="258:326" ph="..." />
-            <marker date="1506967622000" expanded="true" signature="379:563" ph="..." />
-            <marker date="1506967622000" expanded="true" signature="584:716" ph="..." />
-            <marker date="1506967622000" expanded="true" signature="740:776" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -527,25 +518,6 @@
             <marker date="1506968109000" expanded="true" signature="222:276" ph="..." />
             <marker date="1506968109000" expanded="true" signature="299:394" ph="..." />
             <marker date="1506968109000" expanded="true" signature="417:482" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Functional/BaseTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-826">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <marker date="1506635129000" expanded="false" signature="40:123" ph="..." />
-            <marker date="1506635129000" expanded="false" signature="128:386" ph=" This is an example class that shows how you could set up a method that ..." />
-            <marker date="1506635129000" expanded="true" signature="443:2191" ph="{...}" />
-            <marker date="1506635129000" expanded="false" signature="453:531" ph=" Use middleware when running application? ..." />
-            <marker date="1506635129000" expanded="false" signature="580:879" ph=" Process the application given a request method and URI ..." />
-            <marker date="1506635129000" expanded="true" signature="958:2189" ph="{...}" />
-            <marker date="1506635129000" expanded="true" signature="1060:1194" ph="..." />
-            <marker date="1506635129000" expanded="true" signature="1074:1184" ph="..." />
-            <marker date="1506635129000" expanded="true" signature="1400:1472" ph="..." />
-            <marker date="1506635129000" expanded="true" signature="1885:1953" ph="..." />
           </folding>
         </state>
       </provider>
@@ -609,21 +581,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <marker date="1506970627000" expanded="true" signature="14:782" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="34:779" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="258:324" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="377:559" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="580:712" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="736:772" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Environment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <marker date="1489946120000" expanded="false" signature="9:238" ph=" Slim Framework (https://slimframework.com) ..." />
+            <marker date="1489946120000" expanded="false" signature="267:330" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="335:533" ph=" Environment ..." />
+            <marker date="1489946120000" expanded="true" signature="604:1724" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="614:760" ph=" Create mock environment ..." />
+            <marker date="1489946120000" expanded="true" signature="816:1722" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="851:1679" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="852:1667" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Functional/BaseTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <marker date="1506970627000" expanded="true" signature="40:123" ph="..." />
+            <marker date="1506970627000" expanded="false" signature="128:386" ph=" This is an example class that shows how you could set up a method that ..." />
+            <marker date="1506970627000" expanded="true" signature="443:2183" ph="{...}" />
+            <marker date="1506970627000" expanded="false" signature="453:531" ph=" Use middleware when running application? ..." />
+            <marker date="1506970627000" expanded="false" signature="580:913" ph=" Process the application given a request method and URI ..." />
+            <marker date="1506970627000" expanded="true" signature="992:2181" ph="{...}" />
+            <marker date="1506970627000" expanded="true" signature="1094:1194" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="1095:1193" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="1400:1472" ph="..." />
+            <marker date="1506970627000" expanded="true" signature="1881:1947" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9598">
+          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding>
+            <marker date="1489946120000" expanded="false" signature="9:238" ph=" Slim Framework (https://slimframework.com) ..." />
+            <marker date="1489946120000" expanded="false" signature="262:949" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="954:1397" ph=" App ..." />
+            <marker date="1489946120000" expanded="true" signature="1409:22769" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="1450:1505" ph=" Current version ..." />
+            <marker date="1489946120000" expanded="false" signature="1545:1606" ph=" Container ..." />
+            <marker date="1489946120000" expanded="false" signature="1641:1822" ph=" Constructor ..." />
+            <marker date="1489946120000" expanded="false" signature="1833:2099" ph=" Create new application ..." />
+            <marker date="1489946120000" expanded="true" signature="2150:2447" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="2192:2253" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="2311:2401" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="2456:2565" ph=" Enable access to the DI container by consumers of $app ..." />
+            <marker date="1489946120000" expanded="true" signature="2602:2647" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="2656:2866" ph=" Add middleware ..." />
+            <marker date="1489946120000" expanded="true" signature="2903:3003" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="3012:3242" ph=" Calling a non-existant method on App checks to see if there's an item ..." />
+            <marker date="1489946120000" expanded="true" signature="3287:3599" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="3339:3508" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="3427:3498" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="3608:3798" ph=" Router proxy methods ..." />
+            <marker date="1489946120000" expanded="false" signature="3809:4020" ph=" Add GET route ..." />
+            <marker date="1489946120000" expanded="true" signature="4067:4136" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4145:4357" ph=" Add POST route ..." />
+            <marker date="1489946120000" expanded="true" signature="4405:4475" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4484:4695" ph=" Add PUT route ..." />
+            <marker date="1489946120000" expanded="true" signature="4742:4811" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4820:5033" ph=" Add PATCH route ..." />
+            <marker date="1489946120000" expanded="true" signature="5082:5153" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="5162:5376" ph=" Add DELETE route ..." />
+            <marker date="1489946120000" expanded="true" signature="5426:5498" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="5507:5722" ph=" Add OPTIONS route ..." />
+            <marker date="1489946120000" expanded="true" signature="5773:5846" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="5855:6082" ph=" Add route for any HTTP method ..." />
+            <marker date="1489946120000" expanded="true" signature="6129:6243" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="6252:6537" ph=" Add route with multiple methods ..." />
+            <marker date="1489946120000" expanded="true" signature="6600:7117" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="6650:6720" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="6861:6922" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="6983:7086" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="7126:7434" ph=" Route Groups ..." />
+            <marker date="1489946120000" expanded="true" signature="7483:7762" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="7771:7947" ph=" Runner ..." />
+            <marker date="1489946120000" expanded="false" signature="7958:8307" ph=" Run application ..." />
+            <marker date="1489946120000" expanded="true" signature="8350:8756" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="8426:8520" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="8557:8648" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="8674:8722" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="8765:9278" ph=" Pull route info for a request with a bad method to decide whether to ..." />
+            <marker date="1489946120000" expanded="true" signature="9386:10264" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="9548:9626" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="9919:10152" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="9962:10141" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="10273:10662" ph=" Process a request ..." />
+            <marker date="1489946120000" expanded="true" signature="10754:11794" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="10950:11028" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="11192:11365" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="11418:11500" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="11524:11606" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="11630:11711" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="11803:11894" ph=" Send the response the client ..." />
+            <marker date="1489946120000" expanded="true" signature="11953:13728" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="12015:12500" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12057:12250" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12065:12249" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12344:12490" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12390:12476" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12568:13721" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12649:12695" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="12933:12997" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13041:13461" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13150:13447" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13377:13429" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13469:13711" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13509:13697" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13627:13679" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="13737:14338" ph=" Invoke application ..." />
+            <marker date="1489946120000" expanded="true" signature="14431:15905" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="14835:14986" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="15039:15159" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="15220:15599" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="15283:15385" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="15658:15729" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="15914:16945" ph=" Perform a sub-request from within an application route ..." />
+            <marker date="1489946120000" expanded="true" signature="17168:17733" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="17615:17683" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="17743:17958" ph=" Dispatch the router to find the route. Prepare the route for use. ..." />
+            <marker date="1489946120000" expanded="true" signature="18071:18791" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="18179:18631" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="18263:18329" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="18800:18913" ph=" Finalize response ..." />
+            <marker date="1489946120000" expanded="true" signature="18976:19967" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="19130:19233" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="19480:19933" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="19519:19694" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="19825:19923" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="19976:20247" ph=" Helper method, which returns true if the provided response must not output a body and false ..." />
+            <marker date="1489946120000" expanded="true" signature="20317:20502" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="20374:20424" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="20511:20851" ph=" Call relevant handler from the Container if needed. If it doesn't exist, ..." />
+            <marker date="1489946120000" expanded="true" signature="20968:21955" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="21029:21168" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="21212:21328" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="21368:21481" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="21489:21652" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="21701:21871" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="21964:22260" ph=" Call relevant handler from the Container if needed. If it doesn't exist, ..." />
+            <marker date="1489946120000" expanded="true" signature="22376:22767" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="22513:22683" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+        <state relative-caret-position="394">
+          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
           <folding>
             <element signature="e#7#29#0#PHP" expanded="true" />
             <element signature="e#520#543#0#PHP" expanded="true" />
-            <element signature="e#900#930#0#PHP" expanded="true" />
-            <element signature="e#1859#1887#0#PHP" expanded="true" />
-            <marker date="1506970379000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
-            <marker date="1506970379000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
-            <marker date="1506970379000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
-            <marker date="1506970379000" expanded="true" signature="1275:1307" ph="SELECT * FRO... tasks" />
-            <marker date="1506970379000" expanded="true" signature="1275:1322" ph="SELECT * FRO... tasks" />
-            <marker date="1506970379000" expanded="true" signature="2022:2056" ph="SELECT * FRO... tasks" />
+            <element signature="e#900#924#0#PHP" expanded="true" />
+            <element signature="e#1276#1306#0#PHP" expanded="true" />
+            <element signature="e#2235#2263#0#PHP" expanded="true" />
+            <marker date="1506970883000" expanded="true" signature="185:230" ph="UPDATE tasks... " />
+            <marker date="1506970883000" expanded="true" signature="670:709" ph="INSERT INTO tasks... " />
+            <marker date="1506970883000" expanded="true" signature="670:857" ph="INSERT INTO tasks... " />
+            <marker date="1506970883000" expanded="true" signature="1052:1084" ph="DELETE FROM " />
+            <marker date="1506970883000" expanded="true" signature="1651:1683" ph="SELECT * FRO... tasks" />
+            <marker date="1506970883000" expanded="true" signature="1651:1698" ph="SELECT * FRO... tasks" />
+            <marker date="1506970883000" expanded="true" signature="2398:2432" ph="SELECT * FRO... tasks" />
           </folding>
         </state>
       </provider>

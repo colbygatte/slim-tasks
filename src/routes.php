@@ -26,6 +26,17 @@ $app->post('/v1/tasks/store', function (Request $request, Response $response, ar
 });
 
 /**
+ * Delete a task
+ */
+$app->post('/v1/tasks/delete', function (Request $request, Response $response, array $args) {
+    $query = $this->db->prepare('DELETE FROM tasks WHERE id = :id;');
+    $query->bindValue(':id', $request->getParsedBodyParam('task_id'));
+    $query->execute();
+
+    return $response->withStatus(200)->withJson(['message' => 'Succesfully deleted']);
+});
+
+/**
  * Get a page of tasks
  */
 $app->get('/v1/tasks/all', function (Request $request, Response $response, array $args) {
