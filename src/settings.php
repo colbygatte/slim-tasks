@@ -22,5 +22,9 @@ return [
             'pass' => '',
             'dbname' => 'tasks'
         ],
+
+        'tasks' => [
+            'perpage' => 2
+        ],
     ],
 ];

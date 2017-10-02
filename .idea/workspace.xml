@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de5d14ad-9ddf-4f5b-967a-ecd6c6e68890" name="Default" comment="" />
+    <list default="true" id="de5d14ad-9ddf-4f5b-967a-ecd6c6e68890" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/settings.php" afterPath="$PROJECT_DIR$/src/settings.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-              <folding>
-                <element signature="e#7#29#0#PHP" expanded="true" />
-                <marker date="1506634882000" expanded="true" signature="184:215" ph="SELECT * FRO... tasks" />
-                <marker date="1506634882000" expanded="true" signature="184:218" ph="SELECT * FRO... tasks" />
-              </folding>
+            <state relative-caret-position="644">
+              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -32,13 +32,17 @@
       <find>&lt;?php</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/settings.php" />
         <option value="$PROJECT_DIR$/src/middleware.php" />
         <option value="$PROJECT_DIR$/src/dependencies.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/src/settings.php" />
       </list>
     </option>
   </component>
@@ -52,7 +56,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -71,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,68 +87,7 @@
             <path>
               <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
               <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="logs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Functional" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tasks-slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Slim" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tasks-slim" type="b2602c69:ProjectViewProjectNode" />
@@ -163,8 +108,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,33 +143,35 @@
       <option name="presentableId" value="Default" />
       <updated>1506629215720</updated>
       <workItem from="1506629217536" duration="3203000" />
+      <workItem from="1506635137746" duration="119000" />
+      <workItem from="1506964052102" duration="2982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3203000" />
+    <option name="totallyTimeSpent" value="6304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -241,52 +186,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <marker date="1506967598000" expanded="true" signature="11:53" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="65:975" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="144:974" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="358:647" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="396:428" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="396:443" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="675:814" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="865:971" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="866:970" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="989:1421" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1074:1420" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1108:1142" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="1251:1319" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1327:1418" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Functional/BaseTestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505933179000" expanded="false" signature="40:123" ph="..." />
-            <marker date="1505933179000" expanded="false" signature="128:386" ph=" This is an example class that shows how you could set up a method that ..." />
-            <marker date="1505933179000" expanded="true" signature="443:2191" ph="{...}" />
-            <marker date="1505933179000" expanded="false" signature="453:531" ph=" Use middleware when running application? ..." />
-            <marker date="1505933179000" expanded="false" signature="580:879" ph=" Process the application given a request method and URI ..." />
-            <marker date="1505933179000" expanded="true" signature="958:2189" ph="{...}" />
-            <marker date="1505933179000" expanded="true" signature="1060:1194" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="1074:1184" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="1400:1472" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="1885:1953" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/README.md" />
     <entry file="file://$PROJECT_DIR$/templates/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <marker date="1505933179000" expanded="true" signature="21:1113" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="32:791" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="208:779" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="227:510" ph="{...}" />
-            <marker date="1505933179000" expanded="true" signature="527:763" ph="{...}" />
-            <marker date="1505933179000" expanded="true" signature="802:1105" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="884:1092" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="904:1085" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="933:959" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="987:1084" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -294,9 +237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505933179000" expanded="true" signature="0:1019" ph="&lt;IfModule mod_rewrite.c&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -304,32 +244,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505933179000" expanded="true" signature="37:324" ph="..." />
-            <marker date="1505933179000" expanded="true" signature="295:322" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.php">
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="204" column="9" lean-forward="true" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
           <folding>
-            <marker date="1506631904000" expanded="true" signature="14:726" ph="..." />
-            <marker date="1506631904000" expanded="true" signature="34:723" ph="..." />
-            <marker date="1506631904000" expanded="true" signature="258:326" ph="..." />
-            <marker date="1506631904000" expanded="true" signature="379:563" ph="..." />
-            <marker date="1506631904000" expanded="true" signature="584:716" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="9:238" ph=" Slim Framework (https://slimframework.com) ..." />
+            <marker date="1489946120000" expanded="false" signature="267:448" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="453:778" ph=" Response ..." />
+            <marker date="1489946120000" expanded="true" signature="840:14017" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="850:898" ph=" Status code ..." />
+            <marker date="1489946120000" expanded="false" signature="938:991" ph=" Reason phrase ..." />
+            <marker date="1489946120000" expanded="false" signature="1036:1106" ph=" Status codes and reason phrases ..." />
+            <marker date="1489946120000" expanded="true" signature="1143:3538" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="3549:3627" ph=" EOL characters used for HTTP response. ..." />
+            <marker date="1489946120000" expanded="false" signature="3663:3911" ph=" Create new HTTP response. ..." />
+            <marker date="1489946120000" expanded="true" signature="4024:4227" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4236:4469" ph=" This method is applied to the cloned object ..." />
+            <marker date="1489946120000" expanded="true" signature="4501:4560" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="4569:4743" ph=" Status ..." />
+            <marker date="1489946120000" expanded="false" signature="4754:4970" ph=" Gets the response status code. ..." />
+            <marker date="1489946120000" expanded="true" signature="5008:5050" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="5059:6056" ph=" Return an instance with the specified status code and, optionally, reason phrase. ..." />
+            <marker date="1489946120000" expanded="true" signature="6116:6763" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="6255:6345" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="6480:6543" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="6581:6685" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="6772:6966" ph=" Filter HTTP status code. ..." />
+            <marker date="1489946120000" expanded="true" signature="7013:7202" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="7085:7170" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="7211:7851" ph=" Gets the response reason phrase associated with the status code. ..." />
+            <marker date="1489946120000" expanded="true" signature="7891:8125" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="7932:7981" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="8037:8099" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="8134:8306" ph=" Body ..." />
+            <marker date="1489946120000" expanded="false" signature="8317:8568" ph=" Write data to the response body. ..." />
+            <marker date="1489946120000" expanded="true" signature="8603:8678" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="8687:8871" ph=" Response Helpers ..." />
+            <marker date="1489946120000" expanded="false" signature="8882:9257" ph=" Redirect. ..." />
+            <marker date="1489946120000" expanded="true" signature="9314:9653" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="9464:9500" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="9535:9607" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="9662:10071" ph=" Json. ..." />
+            <marker date="1489946120000" expanded="true" signature="10147:10732" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="10398:10490" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="10623:10691" ph="..." />
+            <marker date="1489946120000" expanded="false" signature="10741:10872" ph=" Is this response empty? ..." />
+            <marker date="1489946120000" expanded="true" signature="10904:10982" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="10991:11130" ph=" Is this response informational? ..." />
+            <marker date="1489946120000" expanded="true" signature="11170:11260" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="11269:11397" ph=" Is this response OK? ..." />
+            <marker date="1489946120000" expanded="true" signature="11426:11485" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="11494:11630" ph=" Is this response successful? ..." />
+            <marker date="1489946120000" expanded="true" signature="11667:11757" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="11766:11902" ph=" Is this response a redirect? ..." />
+            <marker date="1489946120000" expanded="true" signature="11937:12020" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="12029:12168" ph=" Is this response a redirection? ..." />
+            <marker date="1489946120000" expanded="true" signature="12206:12296" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="12305:12452" ph=" Is this response forbidden? ..." />
+            <marker date="1489946120000" expanded="true" signature="12488:12547" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="12556:12691" ph=" Is this response not Found? ..." />
+            <marker date="1489946120000" expanded="true" signature="12726:12785" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="12794:12934" ph=" Is this response a client error? ..." />
+            <marker date="1489946120000" expanded="true" signature="12972:13062" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="13071:13211" ph=" Is this response a server error? ..." />
+            <marker date="1489946120000" expanded="true" signature="13249:13339" ph="{...}" />
+            <marker date="1489946120000" expanded="false" signature="13348:13485" ph=" Convert response to string. ..." />
+            <marker date="1489946120000" expanded="true" signature="13520:14015" ph="{...}" />
+            <marker date="1489946120000" expanded="true" signature="13553:13705" ph="..." />
+            <marker date="1489946120000" expanded="true" signature="13801:13904" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -338,17 +334,25 @@
         <state relative-caret-position="550">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <marker date="1506634256000" expanded="true" signature="121:238" ph="..." />
-            <marker date="1506634256000" expanded="true" signature="291:578" ph="..." />
-            <marker date="1506634256000" expanded="true" signature="616:905" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="121:238" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="291:578" ph="..." />
+            <marker date="1506635129000" expanded="true" signature="616:905" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="867" column="20" lean-forward="false" selection-start-line="867" selection-start-column="20" selection-end-line="867" selection-end-column="20" />
+        <state relative-caret-position="199">
+          <caret line="1053" column="20" lean-forward="false" selection-start-line="1053" selection-start-column="20" selection-end-line="1053" selection-end-column="20" />
           <folding>
             <marker date="1505487241000" expanded="true" signature="5:47634" ph="..." />
             <marker date="1505487241000" expanded="false" signature="38:268" ph=" Represents an error raised by PDO. You should not throw a ..." />
@@ -475,88 +479,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php">
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="204" column="9" lean-forward="true" selection-start-line="204" selection-start-column="9" selection-end-line="204" selection-end-column="9" />
+        <state relative-caret-position="506">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
-            <marker date="1489946120000" expanded="false" signature="9:238" ph=" Slim Framework (https://slimframework.com) ..." />
-            <marker date="1489946120000" expanded="false" signature="267:448" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="453:778" ph=" Response ..." />
-            <marker date="1489946120000" expanded="true" signature="840:14017" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="850:898" ph=" Status code ..." />
-            <marker date="1489946120000" expanded="false" signature="938:991" ph=" Reason phrase ..." />
-            <marker date="1489946120000" expanded="false" signature="1036:1106" ph=" Status codes and reason phrases ..." />
-            <marker date="1489946120000" expanded="true" signature="1143:3538" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="3549:3627" ph=" EOL characters used for HTTP response. ..." />
-            <marker date="1489946120000" expanded="false" signature="3663:3911" ph=" Create new HTTP response. ..." />
-            <marker date="1489946120000" expanded="true" signature="4024:4227" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="4236:4469" ph=" This method is applied to the cloned object ..." />
-            <marker date="1489946120000" expanded="true" signature="4501:4560" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="4569:4743" ph=" Status ..." />
-            <marker date="1489946120000" expanded="false" signature="4754:4970" ph=" Gets the response status code. ..." />
-            <marker date="1489946120000" expanded="true" signature="5008:5050" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="5059:6056" ph=" Return an instance with the specified status code and, optionally, reason phrase. ..." />
-            <marker date="1489946120000" expanded="true" signature="6116:6763" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="6255:6345" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="6480:6543" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="6581:6685" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="6772:6966" ph=" Filter HTTP status code. ..." />
-            <marker date="1489946120000" expanded="true" signature="7013:7202" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="7085:7170" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="7211:7851" ph=" Gets the response reason phrase associated with the status code. ..." />
-            <marker date="1489946120000" expanded="true" signature="7891:8125" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="7932:7981" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="8037:8099" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="8134:8306" ph=" Body ..." />
-            <marker date="1489946120000" expanded="false" signature="8317:8568" ph=" Write data to the response body. ..." />
-            <marker date="1489946120000" expanded="true" signature="8603:8678" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="8687:8871" ph=" Response Helpers ..." />
-            <marker date="1489946120000" expanded="false" signature="8882:9257" ph=" Redirect. ..." />
-            <marker date="1489946120000" expanded="true" signature="9314:9653" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="9464:9500" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="9535:9607" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="9662:10071" ph=" Json. ..." />
-            <marker date="1489946120000" expanded="true" signature="10147:10732" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="10398:10490" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="10623:10691" ph="..." />
-            <marker date="1489946120000" expanded="false" signature="10741:10872" ph=" Is this response empty? ..." />
-            <marker date="1489946120000" expanded="true" signature="10904:10982" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="10991:11130" ph=" Is this response informational? ..." />
-            <marker date="1489946120000" expanded="true" signature="11170:11260" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="11269:11397" ph=" Is this response OK? ..." />
-            <marker date="1489946120000" expanded="true" signature="11426:11485" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="11494:11630" ph=" Is this response successful? ..." />
-            <marker date="1489946120000" expanded="true" signature="11667:11757" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="11766:11902" ph=" Is this response a redirect? ..." />
-            <marker date="1489946120000" expanded="true" signature="11937:12020" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="12029:12168" ph=" Is this response a redirection? ..." />
-            <marker date="1489946120000" expanded="true" signature="12206:12296" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="12305:12452" ph=" Is this response forbidden? ..." />
-            <marker date="1489946120000" expanded="true" signature="12488:12547" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="12556:12691" ph=" Is this response not Found? ..." />
-            <marker date="1489946120000" expanded="true" signature="12726:12785" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="12794:12934" ph=" Is this response a client error? ..." />
-            <marker date="1489946120000" expanded="true" signature="12972:13062" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="13071:13211" ph=" Is this response a server error? ..." />
-            <marker date="1489946120000" expanded="true" signature="13249:13339" ph="{...}" />
-            <marker date="1489946120000" expanded="false" signature="13348:13485" ph=" Convert response to string. ..." />
-            <marker date="1489946120000" expanded="true" signature="13520:14015" ph="{...}" />
-            <marker date="1489946120000" expanded="true" signature="13553:13705" ph="..." />
-            <marker date="1489946120000" expanded="true" signature="13801:13904" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="11:53" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="65:975" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="144:974" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="358:647" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="396:428" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="396:443" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="675:814" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="865:971" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="866:970" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="989:1421" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1074:1420" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1108:1142" ph="SELECT * FRO... tasks" />
+            <marker date="1506967598000" expanded="true" signature="1251:1319" ph="..." />
+            <marker date="1506967598000" expanded="true" signature="1327:1418" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.php">
+    <entry file="file://$PROJECT_DIR$/src/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#7#29#0#PHP" expanded="true" />
-            <marker date="1506634882000" expanded="true" signature="184:215" ph="SELECT * FRO... tasks" />
-            <marker date="1506634882000" expanded="true" signature="184:218" ph="SELECT * FRO... tasks" />
-          </folding>
+        <state relative-caret-position="644">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
