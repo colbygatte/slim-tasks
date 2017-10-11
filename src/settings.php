@@ -24,7 +24,7 @@ return [
         ],
 
         'tasks' => [
-            'perpage' => 2
+            'perpage' => 100
         ],
     ],
 ];

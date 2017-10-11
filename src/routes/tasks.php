@@ -22,7 +22,10 @@ $app->post('/v1/tasks/store', function (Request $request, Response $response, ar
     $query->bindValue(':task', $request->getParsedBodyParam('task'));
     $query->execute();
 
-    return $response->withStatus(200)->withJson(['message' => 'Successfully stored']);
+    return $response->withStatus(200)->withJson([
+        'message' => 'Successfully stored',
+        'id' => $this->db->lastInsertId()
+    ]);
 });
 
 /**
@@ -42,11 +45,14 @@ $app->post('/v1/tasks/update', function (Request $request, Response $response, a
  * Delete a task
  */
 $app->post('/v1/tasks/delete', function (Request $request, Response $response, array $args) {
+    /** @var \PDOStatement $query */
     $query = $this->db->prepare('DELETE FROM tasks WHERE id = :id;');
-    $query->bindValue(':id', $request->getParsedBodyParam('task_id'));
-    $query->execute();
+    $query->bindValue(':id', $request->getParsedBodyParam('id'));
+    $result = $query->execute();
 
-    return $response->withStatus(200)->withJson(['message' => 'Succesfully deleted']);
+    return $response->withStatus(200)->withJson([
+        'message' => 'Deleted'
+    ]);
 });
 
 /**
