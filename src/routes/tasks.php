@@ -26,6 +26,19 @@ $app->post('/v1/tasks/store', function (Request $request, Response $response, ar
 });
 
 /**
+ * Update a task
+ */
+$app->post('/v1/tasks/update', function (Request $request, Response $response, array $args) {
+    $query = $this->db->prepare('UPDATE tasks SET task = :task, completed = :completed WHERE id = :id;');
+    $query->bindValue(':task', $request->getParsedBodyParam('task'));
+    $query->bindValue(':completed', (int) $request->getParsedBodyParam('completed'));
+    $query->bindValue(':id', $request->getParsedBodyParam('id'));
+    $query->execute();
+
+    return $response->withStatus(200)->withJson(['message' => 'Successfully stored']);
+});
+
+/**
  * Delete a task
  */
 $app->post('/v1/tasks/delete', function (Request $request, Response $response, array $args) {
